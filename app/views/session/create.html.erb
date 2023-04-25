@@ -1,0 +1,9 @@
+<h1>Session#create</h1>
+<p>Find me in app/views/session/create.html.erb</p>
+<%= form_with url: "logged_in", method: :post do |form| %>
+  <%= form.label :email, "Username"%>
+  <%= form.text_field :email %>
+  <%= form.label :password, "Password" %>
+  <%= form.password_field :password %>
+  <%= form.submit "Login" %>
+<% end %>
