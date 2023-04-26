@@ -7,8 +7,6 @@ H
 .ruby-version,1\9\19ed2a9b83b226ba18e78966454862762d8fef02
 `
 0db/migrate/20230424010837_rename_desk_to_deck.rb,8\b\8b3174cb51c13b80905b59a3023aa4a0b3306cd3
-B
-app/models/card.rb,7\b\7ba416dc70ef7aa2c6be39a115eba0e390b550e2
 H
 test/models/card_test.rb,1\3\13b9072042a15daad2de9ee3994ac27f762fe062
 X
@@ -68,8 +66,6 @@ M
 app/views/deck/where.html.erb,5\d\5d06a7901862b444054374326c3f751d9bbceeb8
 T
 $test/application_system_test_case.rb,c\1\c10431f503a622f9e675d4774c7ac3223463cd29
-B
-app/models/deck.rb,5\5\5542a0a3d9594db67454a8673e48cd92e6c43774
 C
 test/test_helper.rb,3\d\3d48a9258f4bc7e07f0403a61ef719d5b4da5299
 A
