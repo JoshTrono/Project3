@@ -1,7 +1,23 @@
 class CardController < ApplicationController
   include AuthenticationConcern
+
   def create
+
     @token = @@token
+    # user_id = params[:authorization][0][:user_id]
+    deck_id = params[:deck_ids]
+    question = params[:question]
+    description = params[:description]
+    @card = Card.new
+    @card.question = question
+    @card.description = description
+    @card.deck_id = 2
+    @card.save
+  end
+
+  def view
+    @deckid = params[:deck_ids]
+    render('card/create')
   end
 
   def index

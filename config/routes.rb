@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  get 'card/create'
+
   get 'card/index'
   get 'card/all'
   get 'card/new'
   get 'card/destroy'
-  get 'user/create'
+  post 'user/create'
   get 'user/destroy'
   get 'user/index'
   get 'session/create'
@@ -18,6 +18,8 @@ Rails.application.routes.draw do
   post 'session/logged_in' => 'session#logged_in'
   get 'session/logged_in' => 'session#dashboard'
   get 'deck/create' => 'deck#createView'
+  post 'card/view', to: 'card#create', as: 'card_create'
+  get 'card/view', to: 'card#view', as: 'card_view'
 
 
   root 'session#create'
