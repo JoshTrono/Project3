@@ -51,8 +51,6 @@ N
 app/views/deck/update.html.erb,b\6\b694879831294969d88af554a7e4af13d470471b
 M
 app/views/deck/where.html.erb,5\d\5d06a7901862b444054374326c3f751d9bbceeb8
-C
-test/test_helper.rb,3\d\3d48a9258f4bc7e07f0403a61ef719d5b4da5299
 A
 test/models/.keep,6\3\630418ae70e33ece157d6ccbd3af92cac504d16c
 A
