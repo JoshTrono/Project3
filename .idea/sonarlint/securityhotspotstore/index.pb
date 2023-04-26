@@ -1,16 +1,8 @@
 
-H
-test/models/desk_test.rb,9\6\9661e1108b54596d22cd69f1ac9c4d4ae62058cb
-[
-+test/controllers/session_controller_test.rb,3\3\33f2a237bb9594ef26e3f15ccd550a6eaec62231
 =
 .ruby-version,1\9\19ed2a9b83b226ba18e78966454862762d8fef02
 `
 0db/migrate/20230424010837_rename_desk_to_deck.rb,8\b\8b3174cb51c13b80905b59a3023aa4a0b3306cd3
-H
-test/models/card_test.rb,1\3\13b9072042a15daad2de9ee3994ac27f762fe062
-X
-(test/controllers/user_controller_test.rb,3\7\37400c5d68b687e2b9cd07535cb1900376d49ac2
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -54,8 +46,6 @@ N
 lib/tasks/.keep,8\6\8614ecca13b70634e65eefb4a870046014b72ba7
 @
 lib/assets/.keep,a\b\ab031d4e9fb5f34e583555cecb3955d8687299dd
-X
-(test/controllers/deck_controller_test.rb,1\d\1db85ba316a8764036747ce6f82dc503414730cf
 O
 app/views/deck/destroy.html.erb,c\4\c4ac12d7286b6cf37a81ea133ef31fb570c5eadb
 M
@@ -64,8 +54,6 @@ N
 app/views/deck/update.html.erb,b\6\b694879831294969d88af554a7e4af13d470471b
 M
 app/views/deck/where.html.erb,5\d\5d06a7901862b444054374326c3f751d9bbceeb8
-T
-$test/application_system_test_case.rb,c\1\c10431f503a622f9e675d4774c7ac3223463cd29
 C
 test/test_helper.rb,3\d\3d48a9258f4bc7e07f0403a61ef719d5b4da5299
 A

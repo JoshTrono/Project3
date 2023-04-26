@@ -1,11 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  id: 1
   question: MyString
   description: MyString
-  deck_id: one
+  deck_id: 1
 
 two:
+  id: 2
   question: MyString
   description: MyString
-  deck_id: two
+  deck_id: 2

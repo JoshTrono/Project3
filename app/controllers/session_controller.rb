@@ -25,7 +25,7 @@ class SessionController < ApplicationController
     puts 'logged_in'
 
 
-    @email = params[:email].lowercase
+    @email = params[:email].downcase
     user = User.where(email: params[:email]).first
     if user&.authenticate(params[:password])
       if (tok = Token.where(user_id: user.id).first)

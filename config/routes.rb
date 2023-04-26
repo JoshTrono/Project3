@@ -15,7 +15,6 @@ Rails.application.routes.draw do
   delete 'deck/destroy'
   get 'deck/update'
   post 'session/logged_in' => 'session#logged_in'
-  get 'session/logged_in' => 'session#dashboard'
   get 'deck/create' => 'deck#createView'
   post 'card/view', to: 'card#create', as: 'card_create'
   get 'card/view', to: 'card#view', as: 'card_view'
