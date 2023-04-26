@@ -25,7 +25,7 @@ class SessionController < ApplicationController
     puts 'logged_in'
 
 
-    @email = params[:email]
+    @email = params[:email].lowercase
     user = User.where(email: params[:email]).first
     if user&.authenticate(params[:password])
       if (tok = Token.where(user_id: user.id).first)
@@ -36,6 +36,7 @@ class SessionController < ApplicationController
       token = Token.create(token: token_value, user_id: user.id)
       @token = token.token
       @@token = @token
+      @deck = Deck.all
       render 'deck/all'
     else
       render status: 401, json: {message: 'Invalid email'}

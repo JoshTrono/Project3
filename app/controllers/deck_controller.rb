@@ -31,6 +31,8 @@ class DeckController < ApplicationController
   end
 
   def destroy
+    Deck.destroy(params[:id])
+    render('deck/all')
   end
 
   def update

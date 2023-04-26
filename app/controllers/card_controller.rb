@@ -11,7 +11,7 @@ class CardController < ApplicationController
     @card = Card.new
     @card.question = question
     @card.description = description
-    @card.deck_id = 2
+    @card.deck_id = params[:deck_ids]
     @card.save
   end
 
@@ -22,6 +22,9 @@ class CardController < ApplicationController
 
   def index
     @token = @@token
+    @deckid = params[:deck_ids]
+    @cards = Card.where(deck_id: @deckid)
+    render('card/all')
   end
 
   def all

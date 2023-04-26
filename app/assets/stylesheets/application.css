@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.buttonsForDeck {
+    display: inline-flex;
+    margin-right: 4em;
+}
+.buttonDelete {
+    justify-content: right;
+}
