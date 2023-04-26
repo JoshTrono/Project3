@@ -18,5 +18,7 @@ module Project3
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    # I should only use mem cache in development use redis in production
+    config.cache_store = :memory_store, { size: 64.megabytes }
   end
 end

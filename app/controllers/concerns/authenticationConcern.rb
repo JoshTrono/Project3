@@ -19,6 +19,9 @@ module AuthenticationConcern
   # if the authorization header is not in the correct format, return a 400 error
   # if the authorization header is in the correct format, decode the token and add it to the params
   def add_auth_header_to_params
+    @token = ApplicationController.class_variable_get(:@@token)
+    bearer_token = @token
+    request.headers['Authorization'] = "Bearer #{bearer_token}" if bearer_token.present?
     if !request.headers['Authorization'].present?
       render status: 400, json: {message: 'No token provided'}
       return
@@ -30,6 +33,7 @@ module AuthenticationConcern
     auth_header = request.headers['Authorization'].split(' ')
     jwt = JsonWebToken.decode(auth_header[1]) if auth_header[0] == 'Bearer'
     params[:authorization] = jwt
+
   end
 
 end

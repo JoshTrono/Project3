@@ -1,6 +1,7 @@
 require_relative '../../lib/json_web_token'
 
 class SessionController < ApplicationController
+
   def create
 
     render 'session/create'
@@ -21,23 +22,27 @@ class SessionController < ApplicationController
   end
 
   def logged_in
-    puts "logged_in"
+    puts 'logged_in'
+
+
     @email = params[:email]
-    @password = params[:password]
     user = User.where(email: params[:email]).first
     if user&.authenticate(params[:password])
       if (tok = Token.where(user_id: user.id).first)
         puts "Deleting token #{tok.token}"
         tok.delete
       end
-      random = SecureRandom.hex(32)
       token_value = JsonWebToken.encode({user_id: user.id, email: user.email})
       token = Token.create(token: token_value, user_id: user.id)
-      render "session/loggedin"
+      @token = token.token
+      @@token = @token
+      render 'deck/all'
     else
       render status: 401, json: {message: 'Invalid email'}
     end
   end
+
+
 
   def destroy
     token_header = @request[:headers]['Authorization'].split(' ').last
