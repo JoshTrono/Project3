@@ -139,8 +139,5 @@ G
 test/fixtures/cards.yml,4\c\4c80d3d06696d9d3656239ebcb3c0cf40e613dc5
 T
 $test/application_system_test_case.rb,c\1\c10431f503a622f9e675d4774c7ac3223463cd29
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 E
 config/application.rb,7\f\7ff7049c1c8745b54f0a9ef78996f60b38f36268

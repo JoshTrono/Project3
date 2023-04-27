@@ -1,3 +1,13 @@
+# Deck Controller
+# This controller is responsible for handling all requests related to decks.
+# It contains the following methods:
+# 1. index
+# 2. createView
+# 3. create
+# 4. all
+# 5. where
+# 6. destroy
+# 7. update
 class DeckController < ApplicationController
   helper_method :all
   include AuthenticationConcern

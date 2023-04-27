@@ -1,5 +1,11 @@
 require_relative '../../lib/json_web_token'
 
+# Session Controller
+# This controller is responsible for handling all requests related to sessions.
+# It contains the following methods:
+# 1. create
+# 2. logged_in
+# 3. destroy
 class SessionController < ApplicationController
 
   def create

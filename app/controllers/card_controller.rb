@@ -1,3 +1,12 @@
+
+# This controller is responsible for handling all the requests related to cards.
+# It contains the following methods:
+# 1. create
+# 2. view
+# 3. index
+# 4. all
+# 5. new
+# 6. destroy
 class CardController < ApplicationController
   include AuthenticationConcern
 
