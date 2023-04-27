@@ -1,179 +1,6 @@
 {
   "Minitest": {
     "coverage": {
-      "C:/Users/josht/Documents/project3/test/controllers/card_controller_test.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/Users/josht/Documents/project3/test/controllers/deck_controller_test.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/Users/josht/Documents/project3/test/controllers/session_controller_test.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "C:/Users/josht/Documents/project3/test/controllers/user_controller_test.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/Users/josht/Documents/project3/test/models/card_test.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/Users/josht/Documents/project3/test/models/desk_test.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/Users/josht/Documents/project3/test/models/token_test.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/Users/josht/Documents/project3/test/models/user_test.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "C:/Users/josht/Documents/project3/app/models/card.rb": {
         "lines": [
           1,
@@ -338,12 +165,7 @@
           null,
           null
         ]
-      }
-    },
-    "timestamp": 1682613816
-  },
-  "rails_test": {
-    "coverage": {
+      },
       "C:/Users/josht/Documents/project3/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
@@ -359,17 +181,6 @@
           0,
           0,
           0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/controllers/application_controller.rb": {
-        "lines": [
-          0,
-          null,
-          null,
-          null,
           0
         ],
         "branches": {
@@ -517,69 +328,6 @@
         "branches": {
         }
       },
-      "C:/Users/josht/Documents/project3/app/controllers/session_controller.rb": {
-        "lines": [
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "C:/Users/josht/Documents/project3/app/controllers/user_controller.rb": {
         "lines": [
           0,
@@ -599,46 +347,6 @@
           0,
           null,
           null,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/helpers/application_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/helpers/card_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/helpers/deck_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/helpers/session_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/helpers/user_helper.rb": {
-        "lines": [
-          0,
           0
         ],
         "branches": {
@@ -666,85 +374,13 @@
         ],
         "branches": {
         }
-      },
-      "C:/Users/josht/Documents/project3/app/models/application_record.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/models/card.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/models/deck.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/models/token.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/app/models/user.rb": {
-        "lines": [
-          0,
-          null,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "C:/Users/josht/Documents/project3/lib/json_web_token.rb": {
-        "lines": [
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1682613816
+    "timestamp": 1682614599
+  },
+  "rails_test": {
+    "coverage": {
+    },
+    "timestamp": 1682614565
   }
 }
