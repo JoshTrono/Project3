@@ -12,8 +12,6 @@ COPY . .
 
 EXPOSE 3000
 
-ENV RAILS_ENV=development
-
 CMD ["rails", "db:create", "environment", "development"]
 
 CMD ["bundle","exec","rails", "server", "-b", "0.0.0.0", "-p", "3000"]
