@@ -1,2 +1,22 @@
-<h1>Card#index</h1>
-<p>Find me in app/views/card/index.html.erb</p>
+<%= render 'layouts/nav' %>
+
+<% @cards.each do |card|  %>
+  <table>
+    <tbody>Card Question: <%= card['question'] %></tbody>
+    <tbody><%= button_tag "Hide/Show", :onclick => "hideInput(#{card['id']})" %> </tbody>
+    <div id="answer<%=card['id'] %>" style="display:none;">
+      <p>Card Answer: <%= card['description'] %></p>
+      <br />
+    </div>
+  </table>
+  <!-- This is to make the button work. It's a javascript function that hides and shows the answer div. so you can study and guess the answer and then check it.
+   /-->
+  <script>
+      function hideInput(cardId) {
+          let emailDiv = document.getElementById(`answer${cardId}`);
+          emailDiv.style.display === "inline" ?  emailDiv.style.display = 'none' : emailDiv.style.display = 'inline';
+      }
+  </script>
+<% end %>
+
+

@@ -1,9 +1,18 @@
+
+# This controller is responsible for handling all the requests related to cards.
+# It contains the following methods:
+# 1. create
+# 2. view
+# 3. index
+# 4. all
+# 5. new
+# 6. destroy
 class CardController < ApplicationController
   include AuthenticationConcern
 
   def create
 
-    @token = @@token
+    @token = session[:token]
     # user_id = params[:authorization][0][:user_id]
     deck_id = params[:deck_ids]
     question = params[:question]
@@ -21,20 +30,25 @@ class CardController < ApplicationController
   end
 
   def index
-    @token = @@token
+    @token = session[:token]
     @deckid = params[:deck_ids]
     @cards = Card.where(deck_id: @deckid)
-    render('card/all')
+    render('card/index')
   end
 
   def all
-    @token = @@token
+    @token = session[:token]
+    @deckid = params[:deck_ids]
     @cards = Card.joins(:deck).where(decks: {user_id: params[:authorization][0][:user_id]}).all
+    render('card/all')
   end
 
   def new
   end
 
   def destroy
+    @cards = Card.joins(:deck).where(decks: {user_id: params[:authorization][0][:user_id]}).all
+    Card.destroy(params[:id])
+    render('card/all')
   end
 end

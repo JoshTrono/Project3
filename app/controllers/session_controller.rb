@@ -1,5 +1,11 @@
 require_relative '../../lib/json_web_token'
 
+# Session Controller
+# This controller is responsible for handling all requests related to sessions.
+# It contains the following methods:
+# 1. create
+# 2. logged_in
+# 3. destroy
 class SessionController < ApplicationController
 
   def create
@@ -23,8 +29,6 @@ class SessionController < ApplicationController
 
   def logged_in
     puts 'logged_in'
-
-
     @email = params[:email].downcase
     user = User.where(email: params[:email]).first
     if user&.authenticate(params[:password])
@@ -36,6 +40,7 @@ class SessionController < ApplicationController
       token = Token.create(token: token_value, user_id: user.id)
       @token = token.token
       @@token = @token
+      session[:token] = @token
       @deck = Deck.all
       render 'deck/all'
     else
@@ -46,11 +51,10 @@ class SessionController < ApplicationController
 
 
   def destroy
-    token_header = @request[:headers]['Authorization'].split(' ').last
-    token = Token.where(token: token_header).first
-    render status: 401, json: { message: 'Token is already deleted' } unless token
+    token = Token.where(token: session[:token]).first
     token&.delete
-    render status: 200, json: {message: 'User logged out successfully'}
+    session[:token] = nil
+    redirect_to root_path
     ##### should add a check to see if the token is already deleted
   end
 end

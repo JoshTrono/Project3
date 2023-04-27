@@ -56,6 +56,7 @@ gem 'rack-cors'
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "simplecov"
 end
 
 group :development do
@@ -67,6 +68,8 @@ group :development do
   gem 'rubocop', require: false
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem 'yard'
 end
 
 group :test do
@@ -75,5 +78,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 
-  gem "simplecov"
+
 end
