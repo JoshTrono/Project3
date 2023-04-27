@@ -65,7 +65,7 @@ jobs:
           docker rm -f rubymvc
           docker rmi ${{ secrets.DOCKERNAME }}/rubymvc
           docker pull ${{ secrets.DOCKERNAME }}/rubymvc
-          docker run -d -p 3000:3000 --name rubymvc -e  --network ruby_project joshet/rubymvc
+          docker run -d -p 3000:3000 --name rubymvc --network ruby_project joshet/rubymvc
           screen -d -m
           exit
           EOF
