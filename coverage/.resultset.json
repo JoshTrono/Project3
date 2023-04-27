@@ -1,0 +1,375 @@
+{
+  "Minitest": {
+    "coverage": {
+      "C:/Users/josht/Documents/project3/app/models/card.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/models/deck.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/controllers/session_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          4,
+          4,
+          4,
+          1,
+          0,
+          0,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/lib/json_web_token.rb": {
+        "lines": [
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/helpers/card_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/helpers/deck_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/helpers/session_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/helpers/user_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/models/token.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "C:/Users/josht/Documents/project3/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/josht/Documents/project3/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/josht/Documents/project3/app/controllers/card_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/josht/Documents/project3/app/controllers/concerns/authenticationConcern.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/josht/Documents/project3/app/controllers/deck_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/josht/Documents/project3/app/controllers/user_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/josht/Documents/project3/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/josht/Documents/project3/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1682553881
+  }
+}

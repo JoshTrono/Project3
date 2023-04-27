@@ -1,2 +1,25 @@
 <h1>Deck#all</h1>
-<p>Find me in app/views/deck/all.html.erb</p>
+<%= link_to "Create Deck", deck_create_path%>
+<% if @deck != nil %>
+  <% @deck.each do |decks|%>
+    <p>Deck number: <%=decks['id'] %>
+    Deck name: <%= decks['name'] %>
+    Deck Description: <%= decks['description'] %>
+    User id: <%= decks['user_id'] %></p>
+    <p>
+      <div class="buttonsForDeck">
+        <%= button_to "Create", card_view_path, params: [deck_ids: decks['id']], method: :get %>
+        <%= button_to "View", card_index_path, params: [deck_ids: decks['id']], method: :get %>
+        <div class="buttonDelete"><%= button_to "Delete", deck_destroy_path, params: [id: decks['id']], method: :delete %></div>
+      </div>
+    </p>
+    <p></p>
+  <% end %>
+
+
+  <% else %>
+    <p>no decks</p>
+
+<% end %>
+
+
