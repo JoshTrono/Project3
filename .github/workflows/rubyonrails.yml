@@ -35,7 +35,7 @@ jobs:
           # RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
           COVERAGE: 'true'
         run: 
-          bundle exec rake test TESTOPTS="--coverage"
+          bundle exec rake test
         # upload coverage to artifacts
       - name : Upload coverage to artifacts
         uses: actions/upload-artifact@v2
