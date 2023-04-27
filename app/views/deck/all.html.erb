@@ -3,8 +3,8 @@
 <% if @deck != nil %>
   <% @deck.each do |decks|%>
     <p>Deck number: <%=decks['id'] %>
-    Deck name: <%= decks['name'] %>
-    Deck Description: <%= decks['description'] %>
+    Deck name: <%= decks['name'] %> -
+    Deck Description: <%= decks['description'] %> -
     User id: <%= decks['user_id'] %></p>
     <p>
       <div class="buttonsForDeck">

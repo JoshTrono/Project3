@@ -38,5 +38,8 @@ class CardController < ApplicationController
   end
 
   def destroy
+    @cards = Card.joins(:deck).where(decks: {user_id: params[:authorization][0][:user_id]}).all
+    Card.destroy(params[:id])
+    render('card/all')
   end
 end

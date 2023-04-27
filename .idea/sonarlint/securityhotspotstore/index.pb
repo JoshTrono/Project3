@@ -117,8 +117,6 @@ J
 app/helpers/user_helper.rb,1\7\17dfd816d3f45b22a3d70874e4461d6dab51a161
 K
 app/jobs/application_job.rb,5\9\595e3046b28835d106b73141d7d1a6ca360194d9
-N
-app/views/card/create.html.erb,6\6\66c9e2f7fe88242770a2f7d4bcd4580d58d3ec2f
 C
 app/models/token.rb,9\7\97bc4c16d04ceedc3063b14634ef03e58ce3519e
 B
@@ -129,8 +127,6 @@ B
 app/models/user.rb,4\e\4ed0c03b53dbc8320da88e7887465514cd9e90a4
 K
 app/views/card/new.html.erb,a\e\aee57c0bb6662d76bb4c9512f8874a5c0f4ce38d
-O
-app/views/card/destroy.html.erb,2\a\2a76eb14c77b247b64ceb2a4bc2992f18cc78fc6
 V
 &app/assets/stylesheets/application.css,5\6\565e1651e502b72ad76ed27e8f0a562fea115987
 X
@@ -151,8 +147,6 @@ G
 test/fixtures/users.yml,d\4\d4a1df09b77b449a6fe362f209df51a234191a14
 G
 test/fixtures/cards.yml,4\c\4c80d3d06696d9d3656239ebcb3c0cf40e613dc5
-@
-config/routes.rb,e\8\e801163eb9182955dca3eb9817d59af634f6665d
 N
 app/views/user/create.html.erb,1\f\1f85a16d1ef4bd1624c7729bc91e637d84812777
 E

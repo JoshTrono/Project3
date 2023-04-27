@@ -2,8 +2,9 @@
 <% @cards.each do |card|  %>
   <table>
     <thead>Card ID: <%= card['id'] %> </thead>
-  <tbody>Card Question: <%= card['question'] %> </tbody>
-  <tbody>Card Answer: <%= card['id'] %> </tbody>
+    <tbody>Card Question: <%= card['question'] %> </tbody>
+    <tbody>Card Answer: <%= card['id'] %> </tbody>
+    <tbody><%= button_to "Delete", card_destroy_path, params: [id: card['id']], method: :delete %></tbody>
   </table>
   <br />
 <% end %>

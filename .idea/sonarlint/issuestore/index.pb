@@ -127,10 +127,6 @@ B
 app/models/user.rb,4\e\4ed0c03b53dbc8320da88e7887465514cd9e90a4
 K
 app/views/card/new.html.erb,a\e\aee57c0bb6662d76bb4c9512f8874a5c0f4ce38d
-O
-app/views/card/destroy.html.erb,2\a\2a76eb14c77b247b64ceb2a4bc2992f18cc78fc6
-N
-app/views/card/create.html.erb,6\6\66c9e2f7fe88242770a2f7d4bcd4580d58d3ec2f
 V
 &app/assets/stylesheets/application.css,5\6\565e1651e502b72ad76ed27e8f0a562fea115987
 X
@@ -151,8 +147,6 @@ H
 test/models/card_test.rb,1\3\13b9072042a15daad2de9ee3994ac27f762fe062
 G
 test/fixtures/cards.yml,4\c\4c80d3d06696d9d3656239ebcb3c0cf40e613dc5
-@
-config/routes.rb,e\8\e801163eb9182955dca3eb9817d59af634f6665d
 N
 app/views/user/create.html.erb,1\f\1f85a16d1ef4bd1624c7729bc91e637d84812777
 T

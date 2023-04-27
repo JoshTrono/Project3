@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'card/index'
   get 'card/all'
   get 'card/new'
-  get 'card/destroy'
+  delete 'card/destroy'
   post 'user/create'
   get 'user/view'
   get 'session/create'
