@@ -1,7 +1,9 @@
-<h1>Card#all</h1>
-<p>Find me in app/views/card/all.html.erb</p>
+<h1></h1>
 <% @cards.each do |card|  %>
-  <p>Card Question: <%= card['question'] %></p>
+  <table>
+    <thead>Card ID: <%= card['id'] %> </thead>
+  <tbody>Card Question: <%= card['question'] %> </tbody>
+  <tbody>Card Answer: <%= card['id'] %> </tbody>
+  </table>
+  <br />
 <% end %>
-
-

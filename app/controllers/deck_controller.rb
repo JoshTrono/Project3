@@ -7,12 +7,12 @@ class DeckController < ApplicationController
   end
 
   def createView
-    @token = @@token
+    @token = session[:token]
     render 'deck/create'
   end
 
   def create
-    @token = @@token
+    @token = session[:token]
     user_id = params[:authorization][0][:user_id]
     @deck = Deck.new
     @deck.name = params[:Deck_name]
@@ -22,7 +22,7 @@ class DeckController < ApplicationController
   end
 
   def all
-    @token = @@token
+    @token = session[:token]
     @deck = Deck.all
     render 'deck/all'
   end

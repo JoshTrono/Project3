@@ -117,12 +117,6 @@ J
 app/helpers/user_helper.rb,1\7\17dfd816d3f45b22a3d70874e4461d6dab51a161
 K
 app/jobs/application_job.rb,5\9\595e3046b28835d106b73141d7d1a6ca360194d9
-K
-app/views/card/all.html.erb,e\c\ec2fef3652a354d3ab4fec99f5513ede4e690d1d
-a
-1app/controllers/concerns/authenticationConcern.rb,9\d\9d11427f5fb3fcd0c2a70b9354b39cd035153f41
-Y
-)app/controllers/application_controller.rb,7\d\7dc0dd94f601e507e2a20bad6adcf12a51caa380
 N
 app/views/card/create.html.erb,6\6\66c9e2f7fe88242770a2f7d4bcd4580d58d3ec2f
 C
@@ -135,18 +129,10 @@ B
 app/models/user.rb,4\e\4ed0c03b53dbc8320da88e7887465514cd9e90a4
 K
 app/views/card/new.html.erb,a\e\aee57c0bb6662d76bb4c9512f8874a5c0f4ce38d
-M
-app/views/card/index.html.erb,1\7\1715efb96c679a2ec5c76e319c9d98287abf3d69
 O
 app/views/card/destroy.html.erb,2\a\2a76eb14c77b247b64ceb2a4bc2992f18cc78fc6
-Q
-!app/views/session/create.html.erb,3\b\3b2b62e5d4dcc95afa2bdd95e98a030c298427f7
 V
 &app/assets/stylesheets/application.css,5\6\565e1651e502b72ad76ed27e8f0a562fea115987
-R
-"app/controllers/deck_controller.rb,6\f\6f073a89b65310bcd3d30860e5fbe2e0487fb3ea
-R
-"app/controllers/card_controller.rb,9\5\95dd281622413eb22bf561930f680068832892c1
 X
 (test/controllers/card_controller_test.rb,b\c\bc815f88c0ee8cc556a344a77f3bc35b38cc036d
 X
@@ -155,10 +141,6 @@ X
 (test/controllers/user_controller_test.rb,3\7\37400c5d68b687e2b9cd07535cb1900376d49ac2
 N
 app/views/deck/create.html.erb,0\9\09ba54de282a7563295c816ca2ff891e8a6ef948
-V
-&app/views/layouts/application.html.erb,e\8\e82294e631b91cb53fe2e362dfd3b8e4a3924ae2
-<
-db/schema.rb,2\c\2cda0c6171fa7d04989507a1dd112e34c40df46d
 H
 test/models/card_test.rb,1\3\13b9072042a15daad2de9ee3994ac27f762fe062
 H
@@ -169,16 +151,10 @@ G
 test/fixtures/users.yml,d\4\d4a1df09b77b449a6fe362f209df51a234191a14
 G
 test/fixtures/cards.yml,4\c\4c80d3d06696d9d3656239ebcb3c0cf40e613dc5
-K
-app/views/deck/all.html.erb,1\e\1e45ee516aa9452486749b935bdbe4f2a4b9b98f
 @
 config/routes.rb,e\8\e801163eb9182955dca3eb9817d59af634f6665d
-U
-%app/controllers/session_controller.rb,4\e\4e5aa6097cffe71d8102dd1154ecc793229f29f9
 N
 app/views/user/create.html.erb,1\f\1f85a16d1ef4bd1624c7729bc91e637d84812777
-R
-"app/controllers/user_controller.rb,a\1\a1418e6c42ac80f34cde4825cfd9bfd7f7cf2b15
 E
 config/application.rb,7\f\7ff7049c1c8745b54f0a9ef78996f60b38f36268
 T

@@ -36,6 +36,7 @@ class SessionController < ApplicationController
       token = Token.create(token: token_value, user_id: user.id)
       @token = token.token
       @@token = @token
+      session[:token] = @token
       @deck = Deck.all
       render 'deck/all'
     else
