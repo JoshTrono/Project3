@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   post 'user/create'
   get 'user/view'
   get 'session/create'
-  get 'session/destroy'
+  delete 'session/destroy'
   get 'deck/index'
   post 'deck/create'
   get 'deck/all'

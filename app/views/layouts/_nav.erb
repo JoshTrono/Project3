@@ -1,0 +1,14 @@
+
+<span>
+  <table>
+
+    <% if session[:token] != nil %>
+      <tbody><%= button_to "All Deck", deck_all_path, method: :get %></tbody>
+      <tbody><%= button_to "All Cards", card_all_path, method: :get %></tbody>
+      <tbody><%= button_to "Logout", session_destroy_path, method: :delete %></tbody>
+    <% else %>
+      <tbody><%= button_to "Login", root_path, method: :get %></tbody>
+    <% end %>
+
+  </table>
+</span>

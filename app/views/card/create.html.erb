@@ -1,4 +1,4 @@
-<h1>Card#create</h1>
+<%= render 'layouts/nav' %>
 <p>Create your flashcard for <%= Deck.where(id: @deckid).pluck(:name).first %></p>
 
 <%= form_with  path: card_create_path, method: :post do |form| %>

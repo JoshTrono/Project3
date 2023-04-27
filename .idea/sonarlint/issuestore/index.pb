@@ -41,10 +41,6 @@ N
 lib/tasks/.keep,8\6\8614ecca13b70634e65eefb4a870046014b72ba7
 @
 lib/assets/.keep,a\b\ab031d4e9fb5f34e583555cecb3955d8687299dd
-O
-app/views/deck/destroy.html.erb,c\4\c4ac12d7286b6cf37a81ea133ef31fb570c5eadb
-M
-app/views/deck/index.html.erb,3\8\38052e5bc9871c59017c8807b90cc312db5237c3
 N
 app/views/deck/update.html.erb,b\6\b694879831294969d88af554a7e4af13d470471b
 M
@@ -123,8 +119,6 @@ B
 app/models/deck.rb,5\5\5542a0a3d9594db67454a8673e48cd92e6c43774
 B
 app/models/user.rb,4\e\4ed0c03b53dbc8320da88e7887465514cd9e90a4
-K
-app/views/card/new.html.erb,a\e\aee57c0bb6662d76bb4c9512f8874a5c0f4ce38d
 V
 &app/assets/stylesheets/application.css,5\6\565e1651e502b72ad76ed27e8f0a562fea115987
 X
@@ -133,8 +127,6 @@ X
 (test/controllers/deck_controller_test.rb,1\d\1db85ba316a8764036747ce6f82dc503414730cf
 X
 (test/controllers/card_controller_test.rb,b\c\bc815f88c0ee8cc556a344a77f3bc35b38cc036d
-N
-app/views/deck/create.html.erb,0\9\09ba54de282a7563295c816ca2ff891e8a6ef948
 H
 test/models/desk_test.rb,9\6\9661e1108b54596d22cd69f1ac9c4d4ae62058cb
 G
@@ -145,12 +137,8 @@ H
 test/models/card_test.rb,1\3\13b9072042a15daad2de9ee3994ac27f762fe062
 G
 test/fixtures/cards.yml,4\c\4c80d3d06696d9d3656239ebcb3c0cf40e613dc5
-N
-app/views/user/create.html.erb,1\f\1f85a16d1ef4bd1624c7729bc91e637d84812777
 T
 $test/application_system_test_case.rb,c\1\c10431f503a622f9e675d4774c7ac3223463cd29
-[
-+test/controllers/session_controller_test.rb,3\3\33f2a237bb9594ef26e3f15ccd550a6eaec62231
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

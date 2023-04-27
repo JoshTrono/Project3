@@ -23,7 +23,8 @@ class DeckController < ApplicationController
 
   def all
     @token = session[:token]
-    @deck = Deck.all
+    user_id = params[:authorization][0][:user_id]
+    @deck = Deck.where(user_id: user_id)
     render 'deck/all'
   end
 
