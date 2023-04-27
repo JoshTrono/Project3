@@ -50,7 +50,7 @@ jobs:
     steps:
       - name: Build docker
         run: |
-          docker build -t ${{ secrets.DOCKER_REPO }}/rubymvc .
+          docker build -t ${{ secrets.DOCKER_REPO }}/rubymvc /home/runner/work/Project3/
           docker login -p ${{ secrets.DOCKER_PASSWORD }} -u ${{ secrets.DOCKERUSERNAME }}
           docker push ${{ secrets.DOCKER_REPO }}/rubymvc
           
