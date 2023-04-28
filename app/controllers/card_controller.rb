@@ -43,6 +43,17 @@ class CardController < ApplicationController
     render('card/all')
   end
 
+  def edit
+    @card = Card.find(params[:id])
+    @card_id = params[:id]
+    render('card/edit')
+  end
+
+  def update
+    @card = Card.find(params[:id])
+    @card.update(question: params[:question], description: params[:description])
+    redirect_back(fallback_location: deck_all_path)
+  end
   def new
   end
 

@@ -1,0 +1,11 @@
+
+<p><%= @card['question'] %></p> <p><%= @card['description'] %></p>
+<%= form_with  path: '/card/update', method: :put do |form| %>
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <%= hidden_field_tag :id, @card_id %>
+  <%= form.label :question, "Question" %>
+  <%= form.text_field :question %>
+  <%= form.label :description, "answer" %>
+  <%= form.text_field :description %>
+  <%= form.submit "Update" %>
+<% end %>

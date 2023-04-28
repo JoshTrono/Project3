@@ -38,6 +38,17 @@ class DeckController < ApplicationController
     render 'deck/all'
   end
 
+  def update
+    @deck = Deck.find(params[:id])
+    @deck.update(name: params[:Deck_name], description: params[:Deck_description])
+    redirect_back(fallback_location: deck_all_path)
+  end
+  def edit
+    @deck = Deck.find(params[:id])
+    @deck_id = params[:id]
+    render('deck/edit')
+  end
+
   def where
   end
 
@@ -46,6 +57,4 @@ class DeckController < ApplicationController
     render('deck/all')
   end
 
-  def update
-  end
 end

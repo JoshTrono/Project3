@@ -12,7 +12,8 @@
         <%= button_to "Create", card_view_path, params: [deck_ids: decks['id']], method: :get %>
         <%= button_to "View Questions", card_index_path, params: [deck_ids: decks['id']], method: :get %>
         <%= button_to "View all cards", card_all_path, params: [id: decks['id']], method: :get %>
-        <div class="buttonDelete"><%= button_to "Delete", deck_destroy_path, params: [id: decks['id']], method: :delete %></div>
+        <%= button_to "Edit Deck", deck_edit_path, params: [id: decks['id']], method: :get %>
+        <div class="buttonDelete"><%= button_to "Delete Deck", deck_destroy_path, params: [id: decks['id']], method: :delete %></div>
       </div>
     </p>
     <p></p>
