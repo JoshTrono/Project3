@@ -180,3 +180,18 @@ J
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+R
+"app/controllers/deck_controller.rb,6\f\6f073a89b65310bcd3d30860e5fbe2e0487fb3ea
+R
+"app/controllers/user_controller.rb,a\1\a1418e6c42ac80f34cde4825cfd9bfd7f7cf2b15
+A
+.yardoc/checksums,9\2\92db0f9f5bb8648ea6f3acf4b47b98d7fab9698c
+@
+.yardoc/complete,6\0\607626f4b8a42812f5d292c623b8ee2f64b416fe
+Y
+)app/controllers/application_controller.rb,7\d\7dc0dd94f601e507e2a20bad6adcf12a51caa380
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+U
+%app/controllers/session_controller.rb,4\e\4e5aa6097cffe71d8102dd1154ecc793229f29f9
