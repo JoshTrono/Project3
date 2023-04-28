@@ -1,12 +1,18 @@
-ENV["RAILS_ENV"] ||= "test"
-require_relative "../config/environment"
-require "rails/test_help"
+# frozen_string_literal: true
 require "simplecov"
+
 SimpleCov.start do
   add_filter "/test/"
   add_filter "/config/"
   track_files "{app,lib}/**/*.rb"
 end
+ENV["RAILS_ENV"] ||= "test"
+require_relative "../config/environment"
+require "rails/test_help"
+
+
+
+
 
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
