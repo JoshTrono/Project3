@@ -124,8 +124,6 @@ V
 X
 (test/controllers/user_controller_test.rb,3\7\37400c5d68b687e2b9cd07535cb1900376d49ac2
 X
-(test/controllers/deck_controller_test.rb,1\d\1db85ba316a8764036747ce6f82dc503414730cf
-X
 (test/controllers/card_controller_test.rb,b\c\bc815f88c0ee8cc556a344a77f3bc35b38cc036d
 H
 test/models/desk_test.rb,9\6\9661e1108b54596d22cd69f1ac9c4d4ae62058cb
@@ -149,10 +147,6 @@ a
 1app/controllers/concerns/authenticationConcern.rb,9\d\9d11427f5fb3fcd0c2a70b9354b39cd035153f41
 Q
 !app/views/session/create.html.erb,3\b\3b2b62e5d4dcc95afa2bdd95e98a030c298427f7
-C
-coverage/index.html,b\4\b4648a16e3820b5f064d6b4273ba59f2082f04c0
-[
-+test/controllers/session_controller_test.rb,3\3\33f2a237bb9594ef26e3f15ccd550a6eaec62231
 V
 &app/views/layouts/application.html.erb,e\8\e82294e631b91cb53fe2e362dfd3b8e4a3924ae2
 M
@@ -176,8 +170,5 @@ A
 .yardoc/checksums,9\2\92db0f9f5bb8648ea6f3acf4b47b98d7fab9698c
 @
 .yardoc/complete,6\0\607626f4b8a42812f5d292c623b8ee2f64b416fe
-:
-
-Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
 U
 %app/controllers/session_controller.rb,4\e\4e5aa6097cffe71d8102dd1154ecc793229f29f9
