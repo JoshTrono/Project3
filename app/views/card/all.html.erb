@@ -6,6 +6,7 @@
     <tbody>Card Question: <%= card['question'] %> </tbody>
     <tbody>Card Answer: <%= card['id'] %> </tbody>
     <tbody><%= button_to "Delete", card_destroy_path, params: [id: card['id']], method: :delete %></tbody>
+    <tbody><%= button_to "Edit", card_edit_path, params: [id: card['id']], method: :get %></tbody>
   </table>
   <br />
 <% end %>

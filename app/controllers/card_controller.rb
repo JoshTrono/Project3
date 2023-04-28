@@ -44,6 +44,8 @@ class CardController < ApplicationController
   end
 
   def edit
+    @card = Card.find(params[:id])
+    @card_id = params[:id]
     render('card/edit')
   end
 

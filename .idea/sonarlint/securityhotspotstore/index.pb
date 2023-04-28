@@ -155,20 +155,10 @@ C
 +test/controllers/session_controller_test.rb,3\3\33f2a237bb9594ef26e3f15ccd550a6eaec62231
 V
 &app/views/layouts/application.html.erb,e\8\e82294e631b91cb53fe2e362dfd3b8e4a3924ae2
-K
-app/views/deck/all.html.erb,1\e\1e45ee516aa9452486749b935bdbe4f2a4b9b98f
 O
 app/views/deck/destroy.html.erb,c\4\c4ac12d7286b6cf37a81ea133ef31fb570c5eadb
-N
-app/views/deck/create.html.erb,0\9\09ba54de282a7563295c816ca2ff891e8a6ef948
 M
 app/views/deck/index.html.erb,3\8\38052e5bc9871c59017c8807b90cc312db5237c3
-K
-app/views/card/all.html.erb,e\c\ec2fef3652a354d3ab4fec99f5513ede4e690d1d
-O
-app/views/card/destroy.html.erb,2\a\2a76eb14c77b247b64ceb2a4bc2992f18cc78fc6
-N
-app/views/card/create.html.erb,6\6\66c9e2f7fe88242770a2f7d4bcd4580d58d3ec2f
 K
 app/views/card/new.html.erb,a\e\aee57c0bb6662d76bb4c9512f8874a5c0f4ce38d
 M
@@ -181,15 +171,11 @@ J
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 R
-"app/controllers/deck_controller.rb,6\f\6f073a89b65310bcd3d30860e5fbe2e0487fb3ea
-R
 "app/controllers/user_controller.rb,a\1\a1418e6c42ac80f34cde4825cfd9bfd7f7cf2b15
 A
 .yardoc/checksums,9\2\92db0f9f5bb8648ea6f3acf4b47b98d7fab9698c
 @
 .yardoc/complete,6\0\607626f4b8a42812f5d292c623b8ee2f64b416fe
-Y
-)app/controllers/application_controller.rb,7\d\7dc0dd94f601e507e2a20bad6adcf12a51caa380
 :
 
 Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4

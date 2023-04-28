@@ -1,0 +1,11 @@
+<p><%= @deck['name'] %></p> <p><%= @deck['description'] %></p>
+<%= form_with  path: '/deck/update', method: :put do |form| %>
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <%= hidden_field_tag :id, @deck_id %>
+  <%= form.label :name, "Name" %>
+  <%= form.text_field :name %>
+  <%= form.label :description, "answer" %>
+  <%= form.text_field :description %>
+  <%= form.submit "Update" %>
+<% end %>
+<%= button_to 'Back', :back, method: :get %>
